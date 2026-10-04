@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кофе Бум</title>
+    <meta
+      name="description"
+      content="Кофейня Кофе Бум — ароматные напитки, свежая обжарка и уютная атмосфера."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <div class="logo" aria-label="Логотип Coffee Boom">
+          <span class="logo-mark">CB</span>
+          <span>Coffee BOOM</span>
+        </div>
+
+        <nav class="nav-links" aria-label="Основная навигация">
+          <a href="#about">О нас</a>
+          <a href="#catalog">Каталог</a>
+          <a href="#menu">Меню</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+
+        <a href="#contacts" class="button button-small">Заказать</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Кокшетау • свежий кофе • уют</p>
+            <h1>Вкус, который задаёт ритм дня в Кокшетау</h1>
+            <p class="subtitle">
+              Coffee BOOM — это место для тех, кто любит хороший кофе, тёплую атмосферу и
+              простые радости каждого дня. Здесь мы собрали любимые напитки, десерты и уют,
+              которые создают настроение в сердце города.
+            </p>
+            <div class="hero-actions">
+              <a href="#catalog" class="button">Смотреть меню</a>
+              <a href="#menu" class="button button-secondary">Ассортимент</a>
+            </div>
+
+            <ul class="stats" aria-label="Показатели кофейни">
+              <li><strong>7 дней</strong><span>в неделю</span></li>
+              <li><strong>12+</strong><span>напитков</span></li>
+              <li><strong>Кокшетау</strong><span>локальный вкус</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Логотип Coffee Boom">
+            <div class="brand-box">
+              <div class="brand-letters">CB</div>
+              <div class="brand-name">Coffee BOOM</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Почему Coffee BOOM</p>
+            <h2>Лёгкий ритм, настоящий вкус и атмосфера для жизни</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="icon">☕</div>
+              <h3>Свежеобжаренный кофе</h3>
+              <p>Насыщенные вкусы, плотный аромат и баланс в каждой чашке.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">🥐</div>
+              <h3>Вкусно в любой день</h3>
+              <p>Десерты, выпечка и напитки, которые подходят для встреч и отдыха.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">📍</div>
+              <h3>В центре Кокшетау</h3>
+              <p>Удобное место для кофе с друзьями, деловой встречи или короткого перерыва.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog" id="catalog">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Популярные позиции</p>
+            <h2>Топ-напитки для гостей Кокшетау</h2>
+          </div>
+
+          <div class="coffee-grid">
+            <article class="coffee-card">
+              <div class="coffee-image image-1"></div>
+              <div class="coffee-content">
+                <span class="tag">Espresso</span>
+                <h3>Эспрессо BOOM</h3>
+                <p>Плотный, яркий и согревающий вкус с лёгкой сладкой нотой.</p>
+                <div class="coffee-meta">
+                  <span>250 мл</span>
+                  <strong>1 200 ₸</strong>
+                </div>
+              </div>
+            </article>
+
+            <article class="coffee-card">
+              <div class="coffee-image image-2"></div>
+              <div class="coffee-content">
+                <span class="tag">Latte</span>
+                <h3>Карамельный латте</h3>
+                <p>Мягкая текстура, нежная пенка и насыщенный кофейный вкус.</p>
+                <div class="coffee-meta">
+                  <span>350 мл</span>
+                  <strong>1 800 ₸</strong>
+                </div>
+              </div>
+            </article>
+
+            <article class="coffee-card">
+              <div class="coffee-image image-3"></div>
+              <div class="coffee-content">
+                <span class="tag">Pour Over</span>
+                <h3>Африканский сорт</h3>
+                <p>Свежий и яркий вкус с фруктовыми нотами и лёгкой кислинкой.</p>
+                <div class="coffee-meta">
+                  <span>250 мл</span>
+                  <strong>2 100 ₸</strong>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu" id="menu">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Ассортимент</p>
+            <h2>Всё, что любят в Coffee BOOM</h2>
+          </div>
+
+          <div class="filter-bar" aria-label="Фильтр по категориям">
+            <button class="filter-btn active" data-filter="all">Все</button>
+            <button class="filter-btn" data-filter="coffee">Кофе</button>
+            <button class="filter-btn" data-filter="desserts">Десерты</button>
+            <button class="filter-btn" data-filter="tea">Чаи</button>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-item" data-category="coffee">
+              <div>
+                <h3>Американо</h3>
+                <p>Классический кофейный вкус без лишней сладости.</p>
+              </div>
+              <span>1 300 ₸</span>
+            </article>
+
+            <article class="menu-item" data-category="coffee">
+              <div>
+                <h3>Капучино</h3>
+                <p>Нежный напиток с воздушной пенкой и мягким вкусом.</p>
+              </div>
+              <span>1 700 ₸</span>
+            </article>
+
+            <article class="menu-item" data-category="desserts">
+              <div>
+                <h3>Чизкейк</h3>
+                <p>Сливочный десерт с лёгкой ванильной нотой.</p>
+              </div>
+              <span>2 200 ₸</span>
+            </article>
+
+            <article class="menu-item" data-category="tea">
+              <div>
+                <h3>Чёрный чай</h3>
+                <p>Ароматный и бодрящий напиток для спокойного отдыха.</p>
+              </div>
+              <span>900 ₸</span>
+            </article>
+
+            <article class="menu-item" data-category="coffee">
+              <div>
+                <h3>Раф</h3>
+                <p>Насыщенный кофе с кремовой текстурой и мягким сливочным вкусом.</p>
+              </div>
+              <span>2 000 ₸</span>
+            </article>
+
+            <article class="menu-item" data-category="desserts">
+              <div>
+                <h3>Панкейк</h3>
+                <p>Нежный завтрак с карамельным соусом и ягодами.</p>
+              </div>
+              <span>2 500 ₸</span>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+      <div class="container footer-inner">
+        <div>
+          <div class="logo logo-footer" aria-label="Логотип Coffee Boom">
+            <span class="logo-mark">CB</span>
+            <span>Coffee BOOM</span>
+          </div>
+          <p>Кофе, десерты и уют для каждого дня в Кокшетау.</p>
+        </div>
+
+        <div class="contact-block">
+          <p>г. Кокшетау, ул. Абая, 18</p>
+          <p>+7 (701) 234-56-78</p>
+          <p>info@coffeeboom.kz</p>
+        </div>
+      </div>
+      <div class="container copyright">
+        <span>© <span id="year"></span> Coffee BOOM</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
